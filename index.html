@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify ~ Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Musify">Musify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h2>Best of NCS - No copyright Sounds</h2>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Dil Diyan Gallan</span>
+                    <span class="songlistplay"><span class="timestamp">3:10</span><i id="1" class="music music fa-regular fa-2x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover2.jpg" alt="1">
+                    <span>Naina</span>
+                    <span class="songlistplay"><span class="timestamp">4:20</span><i id="2" class="music fa-regular fa-2x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover3.jpg" alt="1">
+                    <span>Bawara Mann</span>
+                    <span class="songlistplay"><span class="timestamp">2:20</span><i id="3" class="music fa-regular fa-2x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover4.jpg" alt="1">
+                    <span>Nazarre</span>
+                    <span class="songlistplay"><span class="timestamp">4:20</span><i id="4" class="music fa-regular fa-2x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover5.jpg" alt="1">
+                    <span>Gaddi Pichhe Naa</span>
+                    <span class="songlistplay"><span class="timestamp">4:20</span><i id="5" class="music fa-regular fa-2x fa-circle-play"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="cover6.jpg" alt="1">
+                    <span>Humma Humma</span>
+                    <span class="songlistplay"><span class="timestamp">4:20</span><i id="6" class="music fa-regular fa-2x fa-circle-play"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" max="100" value="0">
+        <div class="icons">
+            <!-- fontawesome -->
+            <i class="fa-sharp fa-3x fa-solid fa-backward-step"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-forward-step"></i>
+        </div>
+        <div class="songinfo">
+            <img src="sound.gif" width="42px" id="gif">Dil Diyan Gallan - Arijit Singh
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a9c707eeb2.js" crossorigin="anonymous"></script>
+</body>
+</html>
